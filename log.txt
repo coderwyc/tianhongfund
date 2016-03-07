@@ -1,0 +1,16 @@
+# def main():
+    # tz = Fund(3000, 0.8816)
+    # tz.buy_more(10000, 0.8419)
+    # tz.unload(3399.50, 0.8496)
+    # ret = tz.unload(5000, 0.8449)
+    # # print r'收回资金:' + str(ret)
+    # ret = tz.unload(tz.get_share(), 0.8779)
+    # print r'收回资金:' + str(ret)
+    # name, date, val = get_val()   # 通过网页爬虫沪深300的基金净值与日期，更新资产
+    # tz.update_net(float(val))
+    # print r'日期:'+ date
+    # print r'基金净值:'+ val
+    # print r'基金持有份额:'+str(tz.get_share())
+    # print r'投资额:' + str(tz.get_all_investment())
+    # print r'总资产为:'+str(float(val)*tz.get_share())
+    # print r'投资收益:'+str(tz.get_profit())
