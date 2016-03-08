@@ -62,10 +62,10 @@ if __name__ == '__main__':
 	url = get_url_by_name(u'天弘创业板')
 	name, date, val = get_val(url) 	
 	tz.update_net(float(val))
-	print r'基金名称:' + name
-	print r'日期:'+ date
-	print r'基金净值:'+ val
-	print r'基金持有份额:'+str(tz.get_share())
-	print r'投资额:' + str(tz.get_all_investment())
-	print r'总资产为:'+str(float(val)*tz.get_share())
-	print r'投资收益:'+str(tz.get_profit())
+	print u'投资额:' + str(tz.get_all_investment())
+	print u'基金名称:' + name
+	print u'日期:'+ date
+	print u'基金净值:'+ val
+	print u'基金持有份额:'+str(tz.get_share())
+	print u'总资产为:'+str(float(val)*tz.get_share())
+	print u'投资收益:'+str(tz.get_profit())
